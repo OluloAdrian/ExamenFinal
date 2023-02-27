@@ -1,0 +1,175 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admisión</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" rel=stylesheet/>
+    <link rel="stylesheet" href="styles.css">
+<!---->
+<nav> 
+    <ul class="menu"> 
+        <li> <a href="https://web2.unfv.edu.pe/Sitio/"><img src="{% static 'pictures/villa.png'%}"  alt="villa1" height="60" flex: 1; object-fit: contain; ></a></li>
+    
+    <li> 
+        <a class= "texto-botón" href="{% url 'inicio'%}">
+    <button>
+        I N I C I O
+        <div id="clip">
+            <div id="leftTop" class="corner"></div>
+            <div id="rightBottom" class="corner"></div>
+            <div id="rightTop" class="corner"></div>
+            <div id="leftBottom" class="corner"></div>
+        </div>
+        <span id="rightArrow" class="arrow"></span>
+        <span id="leftArrow" class="arrow"></span>
+    </button>
+        </a>
+    </li>
+    <li> 
+        <a class= "texto-botón" href="{% url 'libros'%}">
+    <button>
+        L I B R O S
+        <div id="clip">
+            <div id="leftTop" class="corner"></div>
+            <div id="rightBottom" class="corner"></div>
+            <div id="rightTop" class="corner"></div>
+            <div id="leftBottom" class="corner"></div>
+        </div>
+        <span id="rightArrow" class="arrow"></span>
+        <span id="leftArrow" class="arrow"></span>
+    </button>
+        </a>
+    </li>
+    <li> 
+        <a class= "texto-botón" href="{% url 'acerca'%}">
+    <button>
+        A C E R C A
+        <div id="clip">
+            <div id="leftTop" class="corner"></div>
+            <div id="rightBottom" class="corner"></div>
+            <div id="rightTop" class="corner"></div>
+            <div id="leftBottom" class="corner"></div>
+        </div>
+        <span id="rightArrow" class="arrow"></span>
+        <span id="leftArrow" class="arrow"></span>
+    </button>
+        </a>
+    </li>
+    <li> 
+        <a class= "texto-botón" href="{% url 'admision'%}">
+    <button>
+        A D M I S I Ó N
+        <div id="clip">
+            <div id="leftTop" class="corner"></div>
+            <div id="rightBottom" class="corner"></div>
+            <div id="rightTop" class="corner"></div>
+            <div id="leftBottom" class="corner"></div>
+        </div>
+        <span id="rightArrow" class="arrow"></span>
+        <span id="leftArrow" class="arrow"></span>
+    </button>
+        </a>
+    </li>
+    </ul>
+    <br>
+    <br>
+    
+    </nav>
+</head>
+<body>
+<!--Primera imagen-->
+<div class="main 2">
+    <img class="img-admision" src="{% static 'pictures/admision.png'%}"  alt="admision2" height="500" flex: 1; object-fit: contain;>
+    <div class="fuente-somos">
+    <h1>Lᴀ Uɴɪᴠᴇʀsɪᴅᴀᴅ Nᴀᴄɪᴏɴᴀʟ Fᴇᴅᴇʀɪᴄᴏ Vɪʟʟᴀʀʀᴇᴀʟ ʙʀɪɴᴅᴀ﹕</h1>
+    </div>
+</div>
+
+
+<!--Botones-->
+    <div class="flex-container">
+        <div><a class="inscripción" href="http://admision.unfv.edu.pe/admision/"
+        target="_blank">𝖠𝖣𝖬𝖨𝖲𝖨𝖮́𝖭</a>
+        </div>
+    
+        <div><a class="inscripción" href="https://web2.unfv.edu.pe/admision/images/pregrado/2023/admPre2023-carpeta.pdf"
+        target="_blank">𝖢𝖠𝖱𝖯𝖤𝖳𝖠</a>
+        </div>
+        <div><a class="inscripción" href="https://web2.unfv.edu.pe/admision/images/pregrado/2023/admPre2023-requisitos.pdf"
+        target="_blank">𝖱𝖤𝖰𝖴𝖨𝖲𝖨𝖳𝖮𝖲</a></div>
+
+        <div><a class="inscripción" href="https://web2.unfv.edu.pe/admision/images/pregrado/2023/admPre2023-cronograma.pdf"
+        target="_blank">𝖢𝖱𝖮𝖭𝖮𝖦𝖱𝖠𝖬𝖠</a></div>
+
+        <div><a class="inscripción" href="https://web2.unfv.edu.pe/admision/images/pregrado/2023/admPre2023-tarifario.pdf"
+        target="_blank">𝖳𝖠𝖱𝖨𝖥𝖠𝖱𝖨𝖮</a></div>
+
+        <div><a class="inscripción" href="https://web2.unfv.edu.pe/admision/images/pregrado/2023/admPre2023-vacantes.pdf"
+        target="_blank">𝖵𝖠𝖢𝖠𝖭𝖳𝖤𝖲</a></div>
+
+        <div><a class="inscripción" href="https://web2.unfv.edu.pe/admision/images/pregrado/2023/admPre2023-temario.pdf"
+        target="_blank">𝖳𝖤𝖬𝖠𝖱𝖨𝖮</a></div>
+
+        <div><a class="inscripción" href="https://web2.unfv.edu.pe/admision/images/pregrado/2023/admPre2023-instructivo.pdf"
+        target="_blank">𝖨𝖭𝖲𝖳𝖱𝖴𝖢𝖳𝖨𝖵𝖮</a></div>
+    
+    
+    </div>
+
+
+<!--Fin botones-->
+
+<!--Segunda imágen-->
+<br>   
+<br>   
+<br>   
+
+
+<div class="main 3">
+    <img class="img-admision2" src="{% static 'pictures/admision2.0.png'%}"  alt="admision2.0" height="500" width="1000" flex: 1; object-fit: contain;>
+</div>
+
+
+
+<!--pie de página-->
+<footer>
+    <div class="fuente-somos">
+        <ul>
+            <li>
+                <p>
+                    »DIRECCIÓN: <br>Jr. Carlos Gonzáles 285 Urb. Maranga - San Miguel
+                </p>
+            </li>
+            <li>
+                <p>»CENTRAL TELEFÓNICA: <br> (+51) 748 0888</p>
+            </li>
+            <li>
+                <p>»CORREO INSTITUCIONAL: <br> occii@unfv.edu.pe</p>
+            </li>
+        </ul>
+    </div>
+    <div class="loader">
+        <svg viewBox="0 0 80 80">
+            <circle id="test" cx="40" cy="40" r="32"></circle>
+        </svg>
+    </div>
+    
+    <div class="loader triangle">
+        <svg viewBox="0 0 86 80">
+            <polygon points="43 8 79 72 7 72"></polygon>
+        </svg>
+    </div>
+    
+    <div class="loader">
+        <svg viewBox="0 0 80 80">
+            <rect x="8" y="8" width="64" height="64"></rect>
+        </svg>
+    </div>  
+    </footer>
+
+
+
+</body>
